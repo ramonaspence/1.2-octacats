@@ -1,13 +1,34 @@
 body {
   box-sizing: border-box;
-  font-size: 10px;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.octodex {
+
 }
 
 .octocat {
+  /* background-color: blue; */
+  /* border: solid 5px #fff; */
+  display: inline-block;
+  width: 33%;
+}
 
+.image-footer img {
+  width: 50px;
 }
