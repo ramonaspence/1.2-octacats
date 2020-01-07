@@ -17,6 +17,7 @@ li {
 
 a {
   text-decoration: none;
+  
 }
 
 .octocat li {
@@ -47,10 +48,10 @@ a {
   display: block;
   background color: red;
   color: #9DA5B3;
-  font-size: 16px;
+  font-size: 21px;
   text-align: left;
   position: relative;
-  top: 10px; left: 20px;
+  top: 25px; left: 20px;
 }
 
 .image-caption {
