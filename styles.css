@@ -8,6 +8,7 @@ img {
 
 ul {
   padding: 0;
+  text-align: center;
 }
 
 li {
@@ -18,17 +19,40 @@ a {
   text-decoration: none;
 }
 
-.octodex {
-
+.octocat li {
+  margin-top: 15px;
 }
 
 .octocat {
-  /* background-color: blue; */
-  /* border: solid 5px #fff; */
   display: inline-block;
-  width: 33%;
+  width: 30%;
+}
+
+.octocat img {
+  border: black 1px inset;
+
+
 }
 
 .image-footer img {
-  width: 50px;
+  width: 25px;
+}
+
+.image-number {
+  display: block;
+  background color: red;
+  color: #9DA5B3;
+  font-size: 12;
+  text-align: left;
+}
+
+.image-caption {
+  font-size: 12;
+  text-align: right;
+}
+.authors {
+  display: inline-block;
+  position: sticky;
+  left: 80%;
+
 }
