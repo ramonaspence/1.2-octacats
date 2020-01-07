@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 90%;
 }
 
 ul {
@@ -25,34 +25,42 @@ a {
 
 .octocat {
   display: inline-block;
-  width: 30%;
+  width: 33%;
 }
 
 .octocat img {
-  border: black 1px inset;
-
-
+  border: black 1px solid;
+  border-radius: 3px;
 }
 
 .image-footer img {
   width: 25px;
 }
 
+.image-footer {
+  border-bottom: black solid 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .image-number {
   display: block;
   background color: red;
   color: #9DA5B3;
-  font-size: 12;
+  font-size: 16px;
   text-align: left;
+  position: relative;
+  top: 10px; left: 20px;
 }
 
 .image-caption {
-  font-size: 12;
+  font-size: 16px;
   text-align: right;
+  position: relative;
+  bottom: 20px; right: 30px;
+
 }
 .authors {
   display: inline-block;
-  position: sticky;
-  left: 80%;
 
 }
