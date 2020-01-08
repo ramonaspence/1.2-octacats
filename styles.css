@@ -15,14 +15,10 @@ li {
   list-style: none;
 }
 
+
 a {
   text-decoration: none;
 
-}
-
-
-.octocat li {
-  margin-top: 15px;
 }
 
 .octocat {
@@ -33,16 +29,16 @@ a {
 
 .octocat::after {
   content: '';
-  /* transform: rotateZ(45deg); */
+  transform: rotateZ(270deg);
   width: 0px;
   height: 0px;
   /* border: gray solid 5px; */
-  border-left: 20px solid gray;
-  border-right: 20px solid gray;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid gray;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
   position: absolute;
-  
+  bottom: 220px;
 
 
 }
